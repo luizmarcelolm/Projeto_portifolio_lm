@@ -1,6 +1,6 @@
 ﻿# Portifolio_LM
-Nesse  Projeto  estou usando HTML e CSS para criação do portifólio.
+Nesse  Projeto  estou usando HTML e CSS para criação do portifólio
 
-Link do portifolio
+Link do portifólio !!!
 
  https://luizmarcelolm.github.io/Projeto_portifolio_lm/
