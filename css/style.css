@@ -99,6 +99,32 @@ footer {
     letter-spacing: 1px;
 }
 
+.sobre {
+    line-height: 1.5;
+    position: absolute;
+    text-align: center;
+    color: #473C8B;
+    font-weight: bold;
+    font-family: Helvetica;
+    left: 10%;
+    right: 10%;
+    bottom: 90px;
+    letter-spacing: 1px;
+}
+
+.experiencia {
+    line-height: 1.5;
+    position: absolute;
+    text-align: center;
+    color: #473C8B;
+    font-weight: bold;
+    font-family: Helvetica;
+    left: 10%;
+    right: 10%;
+    top: 450px;
+    letter-spacing: 1px;
+}
+
 .linkedin {
     position: absolute;
     background-image: url('../images/linkedin.jpg');
@@ -113,6 +139,12 @@ footer {
     right: 10%;
     bottom: 40px;
     border-radius: 10%;
+}
+
+.container_texto {
+    background-color: #473C8B11;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -161,6 +193,9 @@ select {
         transform: translate(-80px, -185px);
         width: 160px;
         border-radius: 50%;
+    }
+    .experiencia {
+        top: 350px;
     }
     .nome {
         position: absolute;
@@ -218,6 +253,18 @@ select {
         transform: translate(-50px, -120px);
         width: 100px;
         border-radius: 50%;
+    }
+    .sobre {
+        line-height: 1.5;
+        position: absolute;
+        text-align: center;
+        color: #473C8B;
+        font-weight: bold;
+        font-family: Helvetica;
+        left: 10%;
+        right: 10%;
+        bottom: 50px;
+        letter-spacing: 1px;
     }
     .nome {
         position: absolute;
