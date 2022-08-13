@@ -26,16 +26,6 @@ header {
     color: white;
 }
 
-.linkBaixarCv {
-    text-decoration: none;
-    font-size: 16px;
-    float: right;
-    margin: 10px;
-    list-style: none;
-    margin-right: 10px;
-    color: white;
-}
-
 section {
     background-image: url('../images/fundo.jpg');
     background-size: cover;
@@ -129,6 +119,13 @@ footer {
     position: absolute;
     background-image: url('../images/linkedin.jpg');
     width: 85px;
+}
+
+.github {
+    position: absolute;
+    background-image: url('../images/github.png');
+    width: 50px;
+    top: 140px;
 }
 
 .formContainer {
@@ -233,6 +230,10 @@ select {
         left: 50%;
         transform: translateX(-50%);
     }
+    .github {
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .formContainer {
         bottom: -90px;
         min-width: 200px;
@@ -314,5 +315,14 @@ select {
         list-style: none;
         margin-right: 10px;
         color: white;
+    }
+}
+
+
+/* TELA DE MENOS 360 PX */
+
+@media screen and (max-width: 360px) {
+    .github {
+        transform: translate(-50%, -50%);
     }
 }
